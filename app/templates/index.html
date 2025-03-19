@@ -9,10 +9,16 @@
 <body>
     <h1>Welcome to the Simple Web App</h1>
     <form action="/submit" method="post">
-        Name: <input type="text" name="name" required><br>
-        Email: <input type="email" name="email" required><br>
-        Phone: <input type="text" name="phone"><br>
-        <input type="submit" value="Submit">
+        <label for="name">Name:</label>
+    <input type="text" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" required>
+
+    <label for="phone">Phone Number:</label>
+    <input type="text" name="phone">  <!-- New field added -->
+
+    <button type="submit">Submit</button>
     </form>
 </body>
 </html>
